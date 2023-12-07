@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.reveal p {
+    font-size: 0.6em;
+}
+
+.imgPage {
+    height: 75vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+.imgPageL {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+.imgZoom {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -34vh;
+    left: 5vW
+}
+
+.imgPageAvecLegende {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+}
+
+.img2 {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+
+.img2L {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.img3 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img3L {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin:0;
+}
+
+.img3_2 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img4 {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.petit_texte{
+    font-size:32px;
+    font-weight:500;
+}
+
+.imgScUs {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+
+
+.imgScFr {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+
+.img2_2 {
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+
+.BD {
+    width: 800px;
+    height: 600px;
+    display: inline-block;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    padding: 20px 0;
+}
+
+    hr:after {
+        background: #fff;
+        content: '#';
+        padding: 0 4px;
+        position: relative;
+        top: -45px;
+    }
+
+.barre {
+    text-decoration: red wavy line-through;
+}
+
+.titre {
+    font-weight: bold;
+}
+
+.imageADD {
+    display: inline-block;
+}
+
+.imageJCC {
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+}
+
+.listeCartes {
+    font-size: 62%;
+}
+
+.bleu{
+    color : blue
+}
+
+.rouge {
+    color: red
+}
